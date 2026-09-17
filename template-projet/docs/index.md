@@ -17,7 +17,7 @@ title: Vue d'ensemble du projet
     **Auteur(s)**: Michel Vuu (20278607)  
     **Thème(s)**: Développement web  
     **Superviseur(s)**: Louis Edouard Lafontant 
-    **Collaborateur(s):** <!-- Nom de(s) collaborateur(s) et partenaire(s)` -->  
+    **Collaborateur(s):** Massimo Costarella-Serra
 
 ## Description du projet
 
@@ -29,7 +29,7 @@ La Fédération des astronomes amateurs du Québec (FAAQ) regroupe 26 clubs et e
 
 ### Problématique
 
-La FAAQ a besoin d'une plateforme moderne qui permet de gérer les membres, les familles, les clubs, les abonnements, les privilèges d'accès et les paiements/reçus tout en étant facilement maintenable.
+La FAAQ compte 26 clubs membres, environ 2000 membres et plus de 1200 transactions annuelles. Présentement, elle utilise un système d'adhésion, WordPress avec des plugins, MailChimp et ARMember. Ces outils sont peu intégrés, dispersés et les mises à jour doivent être fait manuellement. Ceci entraîne des coûts élevés, des données qui se repètent, un service à la clientèle insuffisant ainsi qu'une gestion complexe. La FAAQ cherche donc une plateforme qui regrouperait la gestion des membres, des communications, des paiements, des inscriptions et des accès. Ceci permettrait de réduire les coûts, améliorer l'efficacité ainsi qu'offrir une experience meilleure et moderne aux utilisateurs
 
 ### Proposition et objectifs
 
@@ -60,7 +60,7 @@ Objectifs
 - Tests : Tests unitaires et d'intégration sur les interfaces ainsi que sur le backend
 - Feedback utilisateurs : Rétroaction sur les prototypes présentées à chaque itérations par autres étudiants
 
-## Échéancier
+## Échéancier (À voir)
 
 !!! info
     Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
