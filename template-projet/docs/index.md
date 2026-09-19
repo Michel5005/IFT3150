@@ -33,12 +33,12 @@ La FAAQ compte 26 clubs membres, environ 2000 membres et plus de 1200 transactio
 
 ### Proposition et objectifs
 
-Nous allons poursuivre le développement de la plateforme de gestion des membres de la FAAQ, en continuant à développer le backend Spring Boot existant et en concevant le frontend
+Nous allons poursuivre le développement de la plateforme de gestion des membres de la FAAQ, en développant le frontend. De mon bord, je m'occuperais plus spécifiquement du côté admin, donc tout ce qui est question de gestion de privilèges, des clubs.
 
 Objectifs
 
 1. Comprendre l'architecture microservices Spring Boot déjà envisagée par la FAAQ
-2. Consolider et poursuivre le développement de certaines composantes backend
+2. Consolider et poursuivre le développement de certaines composantes
 3. Concevoir et développer le frontend de la plateforme
 4. Relier les interfaces aux services backend
 5. Documenter les choix de conception et les décisions techniques
@@ -58,7 +58,7 @@ Objectifs
 
 - Scénarios principales : Visitez chaque action possible (Inscription d'un membre, gestion de club, etc)
 - Tests : Tests unitaires et d'intégration sur les interfaces ainsi que sur le backend
-- Feedback utilisateurs : Rétroaction sur les prototypes présentées à chaque itérations par autres étudiants
+- Feedback utilisateurs : Rétroaction sur les prototypes présentées à chaque itérations par membres de la FAAQ
 
 ## Échéancier (À voir)
 
