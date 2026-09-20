@@ -48,11 +48,12 @@ Objectifs
 
 ### Méthodologie
 
+Sachant que le protoypage a déjà été conçue, la méthodologie qui sera utilisé est le suivant:
+
 1. Analyse : Étudiez le backend Spring Boot existant, et analyse des demandes de la FAAQ
-2. Conception/Prototypage : Concevoir des interfaces sur Figma pour le frontend, et définir la communication entre le frontend et le backend
-3. Développement avec le modèle Sprint : Développer de manière itérative rapides le backend et frontend, avec démonstration au superviseur et feedback à la fin d'une itération
-4. Intégration continue : Envoie le code à la branche principale quand une tâche a été complétée
-5. Documentation : Prendre en notes chaque décision prise tout au long du projet
+2. Développement avec le modèle Sprint : Développer de manière itérative rapides le backend et frontend, avec démonstration au superviseur et feedback à la fin d'une itération
+3. Intégration continue : Envoie le code à la branche principale quand une tâche a été complétée
+4. Documentation : Prendre en notes chaque décision prise tout au long du projet
 
 ### Validation et Évaluation
 
