@@ -61,13 +61,18 @@ Sachant que le protoypage a déjà été conçue, la méthodologie qui sera util
 - Tests : Tests unitaires et d'intégration sur les interfaces ainsi que sur le backend
 - Feedback utilisateurs : Rétroaction sur les prototypes présentées à chaque itérations par membres de la FAAQ
 
-## Échéancier (À voir)
+## Échéancier (Pas Finale)
 
 !!! info
     Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
 
 | Activités                      | Début   |   Fin   | Livrable                            | Statut      |
 |--------------------------------|---------|---------|-------------------------------------|-------------|
-| Ouverture de projet            | 4 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
-| Études préliminaires           | 4 mai   | 22 mai  | Document d'analyse                  | 🔄 En cours |
-| Présentation + Rapport         | 7 aout  | 14 aout | Présentation + Rapport              | ⏳ À venir  |
+| Ouverture de projet            | 16 Septembre  | 18 Septembre  | Proposition de projet               | ✅ Terminé  |
+| Études préliminaires           | 18 Septembre   | 23 Septembre  | Document d'analyse                  | 🔄 En cours |
+| Architecture Frontend (privilèges)           | 23 Septembre   | 30 Septemebre  |Système de privilèges, Documentation des privilèges, Base de composantes réutilisables | ⏳ À venir |
+| Mise en commun 1           | 5 Octobre   | 5 Octobre  || ⏳ À venir |
+| Mise en commun 1           | 5 Octobre   | 5 Octobre  || ⏳ À venir |
+| Mise en commun 2           | 2 Novembre   | 2 Novembre  || ⏳ À venir |
+| Mise en commun 3           | 23 Novembre   | 23 Novembre  || ⏳ À venir |
+| Présentation + Rapport         | 30 Novembre  | 4 Décembre | Présentation + Rapport              | ⏳ À venir  |
