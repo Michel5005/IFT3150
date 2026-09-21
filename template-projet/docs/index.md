@@ -17,7 +17,7 @@ title: Vue d'ensemble du projet
     **Auteur(s)**: Michel Vuu (20278607)  
     **Thème(s)**: Développement web  
     **Superviseur(s)**: Louis Edouard Lafontant 
-    **Collaborateur(s):** Massimo Costarella-Serra
+    **Collaborateur(s):** Massimo Costarella-Serra, Marc St-Pierre, Jasmin Robert
 
 ## Description du projet
 
