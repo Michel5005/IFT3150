@@ -27,6 +27,20 @@ title: Vue d'ensemble du projet
 
 La Fédération des astronomes amateurs du Québec (FAAQ) regroupe 26 clubs et environ 2000 membres au Québec. Afin de gérer ses adhésions, ses paiements, ses communications et l'accès à ces services, elle utilise présentement des méthodes obsolètes, qui rend la maintenance difficile. La conception d'un backend Spring Boot a déjà été commencée par la FAAQ. Cependant, le frontend reste complètement à concevoir et à développer. Ce projet s'inscrit dans un chantier réel et actif, où l'équipe contribuera au backend et au frontend.
 
+Le backend Spring Boot est une architecture en micro services, c'est-à-dire que le backend est découpé est plusieurs petits services autonomes tel que chacun est en charge d'une fonction spécifique ainsi que sa propre base de données.
+
+L'architecture est le suivant:
+
+<img width="616" height="264" alt="image" src="https://github.com/user-attachments/assets/b0d16184-1ec3-4c47-8162-a658e6af21df" />
+
+Éris: Frontend React. Responsable de récolter des données et de les soumettre aux services.
+
+Hauméa: Responsable de la sécurité, c'est-à-dire gestion de l'authentification et la vérification des jetons d'accès. Selon la requête faite, elle redirige la requête vers les services pertinents.
+
+Cérès: Responsable des fonctionnalités affaires, c'est-à-dire la gestion des clubs, membres, abonnements, etc. Sa base de données ne contient ni numéro de carte de crédit ni mot de passe. Seule Hauméa peut utiliser les ressources de Cérès. 
+
+Chiron: Responsable des données et transactions bancaires. Sa base de données ne contient pas de numéro de carte en clair, mais plutôt un jeton que le service bancaire nous donnera quand viendra la vérification de la carte de crédit
+              
 ### Problématique
 
 La FAAQ compte 26 clubs membres, environ 2000 membres et plus de 1200 transactions annuelles. Présentement, elle utilise un système d'adhésion, WordPress avec des plugins, MailChimp et ARMember. Ces outils sont peu intégrés, dispersés et les mises à jour doivent être fait manuellement. Ceci entraîne des coûts élevés, des données qui se repètent, un service à la clientèle insuffisant ainsi qu'une gestion complexe. La FAAQ cherche donc une plateforme qui regrouperait la gestion des membres, des communications, des paiements, des inscriptions et des accès. Ceci permettrait de réduire les coûts, améliorer l'efficacité ainsi qu'offrir une experience meilleure et moderne aux utilisateurs
@@ -70,9 +84,8 @@ Sachant que le protoypage a déjà été conçue, la méthodologie qui sera util
 |--------------------------------|---------|---------|-------------------------------------|-------------|
 | Ouverture de projet            | 16 Septembre  | 18 Septembre  | Proposition de projet               | ✅ Terminé  |
 | Études préliminaires           | 18 Septembre   | 23 Septembre  | Document d'analyse                  | 🔄 En cours |
-| Architecture Frontend (privilèges)           | 23 Septembre   | 30 Septemebre  |Système de privilèges, Documentation des privilèges, Base de composantes réutilisables | ⏳ À venir |
-| Mise en commun 1           | 5 Octobre   | 5 Octobre  || ⏳ À venir |
-| Mise en commun 1           | 5 Octobre   | 5 Octobre  || ⏳ À venir |
+| Mise en commun 1           | 30 Septembre   | 30 Septembre  || ✅ Terminé |
+| Architecture Frontend (privilèges)           | 1 Octobre   | 15 Octobre  |Système de privilèges, Documentation des privilèges, Base de composantes réutilisables | ⏳ À venir |
 | Mise en commun 2           | 2 Novembre   | 2 Novembre  || ⏳ À venir |
 | Mise en commun 3           | 23 Novembre   | 23 Novembre  || ⏳ À venir |
 | Présentation + Rapport         | 30 Novembre  | 4 Décembre | Présentation + Rapport              | ⏳ À venir  |
