@@ -1,0 +1,762 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Template de site web pour le cours IFT3150">
+      
+      
+        <meta name="author" content="Louis-Edouard Lafontant">
+      
+      
+        <link rel="canonical" href="https://ift3150-template.github.io/synthese/">
+      
+      
+        <link rel="prev" href="../suivi/">
+      
+      
+        <link rel="next" href="../references/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.60">
+    
+    
+      
+        <title>Synthèse - Site de suivi &ndash; Projet IFT3150</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.ce62732f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#evaluation" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="./.." title="Site de suivi &amp;ndash; Projet IFT3150" class="md-header__button md-logo" aria-label="Site de suivi &ndash; Projet IFT3150" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Site de suivi &ndash; Projet IFT3150
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Synthèse
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Recherche">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Recherche">
+  <button type="button" class="md-search__button">
+    Recherche
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+        <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ift3150-template
+  </div>
+</a>
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./.." class="md-tabs__link">
+        
+  
+  Vue d'ensemble
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../suivi/" class="md-tabs__link">
+        
+  
+  Suivi
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="././" class="md-tabs__link">
+        
+  
+  Synthèse
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../references/" class="md-tabs__link">
+        
+  
+  Références
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="Site de suivi &amp;ndash; Projet IFT3150" class="md-nav__button md-logo" aria-label="Site de suivi &ndash; Projet IFT3150" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    Site de suivi &ndash; Projet IFT3150
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ift3150-template
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Vue d'ensemble
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../suivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Suivi
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Synthèse
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Synthèse
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure-suggeree" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Structure suggérée
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structure suggérée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-etudes-preliminaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. Études préliminaires
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-realisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. Réalisation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. Évaluation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-bilan" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. Bilan
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Références
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure-suggeree" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Structure suggérée
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structure suggérée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-etudes-preliminaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. Études préliminaires
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-realisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. Réalisation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. Évaluation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-bilan" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. Bilan
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+  
+
+
+<style>
+    @media screen and (min-width: 76em) {
+        .md-sidebar--primary {
+            display: none !important;
+        }
+    }
+</style>
+
+<h1 id="evaluation">Évaluation<a class="headerlink" href="#evaluation" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><img alt="💡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4a1.svg" title=":bulb:" /> Cette page présente une vue d'ensemble du projet, depuis les études réalisées avant le développement jusqu'au bilan final.
+Elle ne remplace pas le rapport final. Elle permet plutôt de documenter progressivement les principales décisions, réalisations et conclusions du projet.</p>
+</blockquote>
+<h2 id="structure-suggeree">Structure suggérée<a class="headerlink" href="#structure-suggeree" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>La structure suivante est donnée à titre indicatif.<br />
+Vous pouvez l’adapter selon la nature du projet.</p>
+</blockquote>
+<h3 id="1-etudes-preliminaires">1. Études préliminaires<a class="headerlink" href="#1-etudes-preliminaires" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Présentez les travaux qui ont permis de <strong>mieux comprendre le problème et d'orienter le projet</strong>.</p>
+<p>Selon votre projet, cela peut notamment comprendre :</p>
+<ul>
+<li>l'analyse du contexte et du problème ;</li>
+<li>l'étude des besoins ou des utilisateurs ;</li>
+<li>l'exploration d'une base de code, de données ou d'une infrastructure existante ;</li>
+<li>l'étude de solutions, outils ou technologies existants ;</li>
+<li>des prototypes ou expérimentations exploratoires ;</li>
+<li>l'analyse de contraintes techniques ou organisationnelles ;</li>
+<li>les choix de conception ou d'approche qui en découlent.</li>
+</ul>
+<p>Il ne s'agit pas de documenter toutes vos recherches, mais de présenter les éléments qui ont <strong>réellement influencé la direction prise par le projet</strong>.</p>
+</blockquote>
+<h3 id="2-realisation">2. Réalisation<a class="headerlink" href="#2-realisation" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Présentez les principales <strong>contributions réalisées durant le projet</strong>.</p>
+<p>Selon la nature du projet, il peut s'agir par exemple :</p>
+<ul>
+<li>de fonctionnalités développées ;</li>
+<li>d'un prototype ou d'une preuve de concept ;</li>
+<li>d'une architecture ou d'une infrastructure mise en place ;</li>
+<li>d'un traitement ou d'une transformation de données ;</li>
+<li>d'une API, d'un outil ou d'un service ;</li>
+<li>d'une amélioration apportée à un système existant ;</li>
+<li>d'une expérimentation technique ;</li>
+<li>d'une démarche de conception ou de modélisation.</li>
+</ul>
+<p>Présentez les éléments les plus importants ainsi que les principaux choix ayant orienté leur réalisation.</p>
+<p>L'objectif est de montrer <strong>ce qui a effectivement été accompli</strong>, et non de dresser simplement la liste des tâches réalisées.</p>
+</blockquote>
+<h3 id="3-evaluation">3. Évaluation<a class="headerlink" href="#3-evaluation" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Présentez comment vous avez <strong>vérifié, testé, évalué ou validé</strong> les résultats du projet.</p>
+<p>La forme de l'évaluation dépend fortement de la nature du projet. Elle peut notamment reposer sur :</p>
+<ul>
+<li>des tests fonctionnels ou automatisés ;</li>
+<li>des scénarios d'utilisation ;</li>
+<li>des tests utilisateurs ;</li>
+<li>des mesures de performance ;</li>
+<li>l'analyse de données ou de résultats ;</li>
+<li>une comparaison avec une solution existante ;</li>
+<li>des expérimentations ;</li>
+<li>une validation auprès du superviseur, d'utilisateurs ou d'un partenaire ;</li>
+<li>l'étude de cas représentatifs.</li>
+</ul>
+<p>Présentez les principaux résultats obtenus et ce qu'ils permettent de conclure.</p>
+<p>Lorsque certaines réalisations n'ont pas pu être évaluées formellement, indiquez clairement <strong>ce qui a pu être vérifié et ce qui reste à valider</strong>.</p>
+</blockquote>
+<h3 id="4-bilan">4. Bilan<a class="headerlink" href="#4-bilan" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Prenez du recul sur l'ensemble du projet.</p>
+<p>Présentez notamment :</p>
+<ul>
+<li>les principales contributions du projet ;</li>
+<li>les objectifs atteints, partiellement atteints ou non atteints ;</li>
+<li>les forces et limites du résultat obtenu ;</li>
+<li>les difficultés ou contraintes importantes rencontrées ;</li>
+<li>les apprentissages techniques ou méthodologiques réalisés ;</li>
+<li>les éléments qui mériteraient d'être poursuivis ou améliorés.</li>
+</ul>
+<p>Le bilan doit permettre de comprendre <strong>où en est réellement le projet à la fin de la session</strong>, ce qui a été appris et quelles seraient les prochaines étapes pertinentes.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2026 <b>DIRO</b> &ndash; Template de site pour le cours IFT3150 <br>
+Département d'informatique et de recherche opérationnelle <br>
+Université de Montréal
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["navigation.instant","navigation.tabs","navigation.sections","navigation.expand","navigation.top","search.highlight","content.tabs.link","content.code.copy","content.code.annotate"],"search":"../assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"Copié dans le presse-papier","clipboard.copy":"Copier dans le presse-papier","search.result.more.one":"1 de plus sur cette page","search.result.more.other":"# de plus sur cette page","search.result.none":"Aucun document trouvé","search.result.one":"1 document trouvé","search.result.other":"# documents trouvés","search.result.placeholder":"Taper pour démarrer la recherche","search.result.term.missing":"Non trouvé","select.version":"Sélectionner la version"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.88ee1349.min.js"></script>
+      
+    
+  </body>
+</html>
