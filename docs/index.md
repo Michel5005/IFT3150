@@ -85,7 +85,8 @@ Sachant que le protoypage a déjà été conçue, la méthodologie qui sera util
 | Ouverture de projet            | 16 Septembre  | 18 Septembre  | Proposition de projet               | ✅ Terminé  |
 | Études préliminaires           | 18 Septembre   | 23 Septembre  | Document d'analyse                  | 🔄 En cours |
 | Mise en commun 1           | 30 Septembre   | 30 Septembre  || ✅ Terminé |
-| Architecture Frontend (privilèges)           | 1 Octobre   | 15 Octobre  |Système de privilèges, Documentation des privilèges, Base de composantes réutilisables | ⏳ À venir |
+| Page Créer un club           | 30 Septembre   | 3 Octobre  || ✅ Terminé |
+| Page Modifier un club           | 3 Octobre   | 13 Octobre  || ✅ Terminé |
 | Mise en commun 2           | 2 Novembre   | 2 Novembre  || ⏳ À venir |
 | Mise en commun 3           | 23 Novembre   | 23 Novembre  || ⏳ À venir |
 | Présentation + Rapport         | 30 Novembre  | 4 Décembre | Présentation + Rapport              | ⏳ À venir  |
