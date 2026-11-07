@@ -55,6 +55,15 @@ title: Suivi du projet
 - Rencontre avec Louis (Suivi du projet)
 - Début du travail sur les menus
 
+## Semaine 25-31 octobre (Semaine d'examen)
+- Modification des pages CreationClubPage et ModifierClubPage en fonction du feedback de Marc
+- Tester sauvegarde après la création d'un club (Mock réponse avec LocalStorage pour voir si payload est bien reçu)
+
+## Semaine 1-7 novembre 
+- Implémentation des dashboards Gestion du club et Administration
+- Rencontre avec l'équipe de la FAAQ
+- Mise en commune 2
+
 ## Objectifs de la période
 - Clarifier la problématique
 - Explorer les solutions existantes
@@ -63,12 +72,16 @@ title: Suivi du projet
 ### Travail réalisé
 - Page CreationClubPage : Page pour créer un club
 - Page ModifierClubPage : Page pour modifier un club
+- Dashboard Gestion du club
+- Dashboard Administration
 
 ### Décisions et ajustements
 - Abandon de rouler tous les microservices en même temps (Trop complexe)
+- Bypass le login afin de pouvoir développer l'interface sans avoir le backend
 - Possiblement changer de projet en fonction de la méthode de travail choisie par la FAAQ
 
 ### Difficultés rencontrées
 - Problème de configurations des microservices
 - Difficulté avec rouler les microservices à cause d'erreurs de compilation
 - Difficile de communiquer avec la FAAQ
+- Problème avec imports d'API (résolu)
