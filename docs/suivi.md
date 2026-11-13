@@ -62,7 +62,7 @@ title: Suivi du projet
 ## Semaine 1-7 novembre 
 - Implémentation des dashboards Gestion du club et Administration
 - Rencontre avec l'équipe de la FAAQ
-- Mise en commune 2 (<a href="docs/Presentation_mise_en_commun_2.pdf" download="Presentation_mise_en_commun_2.pdf">Télécharger le PDF</a>)
+- Mise en commune 2 (<a href="../presentation.pdf" download="Presentation_mise_en_commun_2.pdf">Télécharger le PDF</a>)
 
 ## Objectifs de la période
 - Clarifier la problématique
